@@ -99,6 +99,7 @@ The classification model achieves the following metrics:
 
 - **Accuracy**: `80%`
 - **Loss**: `0.69`
+<img width="527" alt="image" src="https://github.com/user-attachments/assets/aff45893-061e-4e34-b7a0-fa390e41cb6f">
 
 
 You can view the results and evaluation metrics in detail inside the notebook.
