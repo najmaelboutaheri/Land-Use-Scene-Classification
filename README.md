@@ -57,14 +57,14 @@ Key dependencies include:
 # Usage
 
 1. Clone this repository:
-   \```bash
+   ```bash
    git clone https://github.com/your-repo/land-use-scene-classification.git
-   \```
+   ```
 2. Navigate to the directory and open the notebook:
-   \```bash
+   ```bash
    cd land-use-scene-classification
    jupyter notebook land-use-scene-classification-all-process.ipynb
-   \```
+   ```
 3. Run the notebook cells step-by-step to reproduce the results.
    
 ## Model Architecture
