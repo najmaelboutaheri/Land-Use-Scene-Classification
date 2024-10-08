@@ -71,8 +71,8 @@ Key dependencies include:
 
 This project uses two CNN architectures for classifying land use scenes. The first CNN architecture is more complex, while the second uses separable convolutions to reduce computational complexity.
 ### CNN Architecture
- \```bash
-   Model = Sequential()
+ ```bash
+Model = Sequential()
 
 Model.add(SeparableConv2D(32, 3, activation="relu", input_shape=(226, 226, 3)))
 Model.add(BatchNormalization())
@@ -91,9 +91,8 @@ Model.add(GlobalAveragePooling2D())
 Model.add(Flatten())
 Model.add(Dense(256, activation="relu"))
 Model.add(Dropout(0.5))
-Model.add(Dense(21, activation="softmax"))
-
-   \```
+Model.add(Dense(21, activation="softmax")) 
+```
 ## Results
 
 The classification model achieves the following metrics:
